@@ -67,32 +67,28 @@ section {
 	font-weight: 500;
 }
 
+.third {
+	margin-bottom: 30px;
+}
+
 /* 
   ========================
   SIGNUP FORM
   ========================
 */
 
-#mc_embed_signup {
-	width: 30%;
-}
-
 #mc-embedded-subscribe {
 	align-self: center;
 	text-transform: uppercase;
 	border: 0px solid #ff2596;
-	-webkit-box-shadow: #b4b5b5 1px 1px 1px;
-	-moz-box-shadow: #b4b5b5 1px 1px 1px;
-	box-shadow: #b4b5b5 1px 1px 1px;
 	-webkit-border-radius: 50px;
 	-moz-border-radius: 50px;
 	border-radius: 50px;
-	font-size: 12px;
+	font-size: 15px;
 	font-family: arial, helvetica, sans-serif;
-	padding: 10px 25px 10px 25px;
+	padding: 10px 30px 10px 30px;
 	text-decoration: none;
 	display: inline-block;
-	text-shadow: 0px 0px 0 rgba(0, 0, 0, 0.3);
 	font-weight: bold;
 	color: #ffffff;
 	background-color: #ff5db1;
@@ -109,4 +105,23 @@ section {
 	background-image: -o-linear-gradient(top, #ff5db1, #ef007c);
 	background-image: linear-gradient(to bottom, #ff5db1, #ef007c);
 	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ff5db1, endColorstr=#ef007c);
+}
+
+#mc-embedded-subscribe:hover {
+	cursor: pointer;
+	border: 0px solid #f60080;
+	background-color: #ff2a98;
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		from(#ff2a98),
+		to(#bc0062)
+	);
+	background-image: -webkit-linear-gradient(top, #ff2a98, #bc0062);
+	background-image: -moz-linear-gradient(top, #ff2a98, #bc0062);
+	background-image: -ms-linear-gradient(top, #ff2a98, #bc0062);
+	background-image: -o-linear-gradient(top, #ff2a98, #bc0062);
+	background-image: linear-gradient(to bottom, #ff2a98, #bc0062);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ff2a98, endColorstr=#bc0062);
 }
