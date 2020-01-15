@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600|Work+Sans:400,600,700&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(background_planets_landing.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	font-family: "Work Sans", sans-serif;
+}
+
+nav {
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	padding: 30px 30px 30px 30px;
+	box-sizing: border-box;
+	margin: 0;
+	position: fixed;
+	justify-content: space-between;
+	background-color: white;
+	box-shadow: 0 8px 6px -6px #999;
+	top: 0;
+	z-index: 1000;
+}
+
+nav img {
+	height: 30px;
+}
+
+section {
+	margin-top: 100px;
+	width: 60%;
+	height: 80vh;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: center;
+}
+
+.container {
+	width: 31%;
+	display: flex;
+	flex-direction: column;
+}
+
+.first {
+	margin-bottom: 16px;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+.second,
+.third {
+	margin-bottom: 10px;
+	font-size: 20px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+}
+
+/* 
+  ========================
+  SIGNUP FORM
+  ========================
+*/
+
+#mc_embed_signup {
+	width: 30%;
+}
+
+#mc-embedded-subscribe {
+	align-self: center;
+	text-transform: uppercase;
+	border: 0px solid #ff2596;
+	-webkit-box-shadow: #b4b5b5 1px 1px 1px;
+	-moz-box-shadow: #b4b5b5 1px 1px 1px;
+	box-shadow: #b4b5b5 1px 1px 1px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	border-radius: 50px;
+	font-size: 12px;
+	font-family: arial, helvetica, sans-serif;
+	padding: 10px 25px 10px 25px;
+	text-decoration: none;
+	display: inline-block;
+	text-shadow: 0px 0px 0 rgba(0, 0, 0, 0.3);
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #ff5db1;
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		from(#ff5db1),
+		to(#ef007c)
+	);
+	background-image: -webkit-linear-gradient(top, #ff5db1, #ef007c);
+	background-image: -moz-linear-gradient(top, #ff5db1, #ef007c);
+	background-image: -ms-linear-gradient(top, #ff5db1, #ef007c);
+	background-image: -o-linear-gradient(top, #ff5db1, #ef007c);
+	background-image: linear-gradient(to bottom, #ff5db1, #ef007c);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ff5db1, endColorstr=#ef007c);
+}
