@@ -15,6 +15,13 @@ body {
 	font-family: "Work Sans", sans-serif;
 }
 
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+	outline: none;
+}
+
 nav {
 	width: 100%;
 	display: flex;
@@ -124,4 +131,24 @@ section {
 	background-image: -o-linear-gradient(top, #ff2a98, #bc0062);
 	background-image: linear-gradient(to bottom, #ff2a98, #bc0062);
 	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#ff2a98, endColorstr=#bc0062);
+}
+
+.mc-field-group {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 5px;
+}
+
+.mc-field-group label {
+	font-size: 16px;
+	align-self: center;
+}
+.mc-field-group input {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+}
+
+.mc-field-group:nth-child(2) {
+	margin-bottom: 20px;
 }
